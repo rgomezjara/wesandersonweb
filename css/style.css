@@ -22,6 +22,7 @@ header{
     list-style: none;
     margin: 15px;
 } */ 
+ /* Pseudoclase :visited */
  #link a:visited{
     color: purple;
  }
@@ -72,6 +73,7 @@ h3{
 
 /* imagen de Wes Anderson */
 .wesFoto{
+    display: flex;
     margin-top: 100px;
     width: 250px;
     height: 250px;
@@ -98,10 +100,20 @@ h5{
 
 }
 i{
-    font-size: 30px;
-    position: fixed;
+    font-size: 50px;
+   /*  position: fixed; */
 }
-
+button{
+    border-color: palevioletred;
+    background-color: white;
+    color: palevioletred;
+    padding: 4px;
+}
+/* Pseudo clase: active */
+button:active{
+    background-color: palevioletred;
+    color: white;
+}
 /* ------------------------------------Pagina Acerca de estilos--------------------------------------------------------------------- */
 
 .lineadeTiempo , .acercade{
@@ -133,10 +145,10 @@ i{
 
 }
 
-
+  
 
 .grid-item{
-   /*  border: 1px solid black; */
+    /* border: 1px solid black; */
     margin-top: 70px;
     padding: 10px;
     text-align: justify;
