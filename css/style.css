@@ -116,8 +116,10 @@ button:active{
 }
 /* ------------------------------------Pagina Acerca de estilos--------------------------------------------------------------------- */
 
-.lineadeTiempo , .acercade{
-    padding: 80px 20px;
+.wes-pop{
+    padding-top: 10px;
+    width: 90%;
+    height: 90%;
 }
 
 
