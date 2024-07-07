@@ -1,0 +1,16 @@
+/* Import de todos los archivos de scss */
+
+@import "../scss/utilities/variables" ;
+@import "../scss/utilities/globales" ;
+
+
+@import "../scss/components/header";
+
+/*  aca entre medio irian las pages  */
+@import "../scss/pages/main-index.scss";
+@import "../scss/pages/main-acercade";
+@import "../scss/pages/main-elcolor";
+@import "../scss/components/footer";
+
+/* media queries tiene que quedar al final */
+@import "../scss/utilities/media-queries" ;

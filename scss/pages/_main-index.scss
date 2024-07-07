@@ -1,0 +1,57 @@
+
+
+/* imagen de Wes Anderson */
+.wesFoto{
+    display: flex;
+    margin-top: 100px;
+    width: 250px;
+    height: 250px;
+ 
+}
+
+
+
+.cards{
+    text-align: justify;
+    padding-top: 80px;
+    
+    /* column-gap: 50px; */
+    .colorCards{
+        width: 300px;
+        padding: 0%;
+        margin-top: 100px;
+        align-items: center;
+    }
+    
+    .titulo-cartas{
+        font-weight: bold;
+        text-align: center;
+        font-family: serif;
+        padding-top: 5px;
+    }
+
+
+}
+/* Imagen de colores */
+
+h5{
+    color: black;
+    text-align: center;
+   
+
+}
+i{
+    font-size: 50px;
+   /*  position: fixed; */
+}
+button{
+    border-color: palevioletred;
+    background-color: white;
+    color: palevioletred;
+    padding: 4px;
+}
+/* Pseudo clase: active */
+button:active{
+    background-color: palevioletred;
+    color: white;
+}

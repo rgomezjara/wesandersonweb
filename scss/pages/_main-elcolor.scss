@@ -1,0 +1,63 @@
+.grid-container{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(4,1fr);
+    /* espacio entre las filas  */
+    /* row-gap: 50px; */
+    column-gap: 5px;
+   /*  Grid areas es mas visual */
+   grid-template-areas: 
+   'video video texto texto'
+   'titulo2 titulo2 titulo2 titulo2'
+   'img1 img2 img3 img4';
+
+}
+
+.grid-item{
+    /* border: 1px solid black; */
+    margin-top: 70px;
+    padding: 10px;
+    text-align: justify;
+
+    #imgColor{
+    
+        width: 350px;
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+        padding-top: 30px;
+    
+        
+    }
+
+    
+}
+
+.video{
+    grid-area: video;
+    width: cover;
+    height:cover ;
+    margin-left: 80px;
+}
+
+.budapest-img{
+    grid-area: img1; 
+}
+.french-img{
+grid-area: img2;
+}
+.asteroid-img{
+grid-area: img3;
+}
+.chevallier-img{
+grid-area: img4;
+justify-content: center;
+}
+
+
+.texto-color{
+    grid-area: texto;
+    padding-right: 70px;
+}
