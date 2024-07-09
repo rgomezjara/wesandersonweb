@@ -1,6 +1,6 @@
 /* Import de todos los archivos de scss */
 
-@import "../scss/utilities/variables" ;
+
 @import "../scss/utilities/globales" ;
 
 
@@ -10,6 +10,8 @@
 @import "../scss/pages/main-index.scss";
 @import "../scss/pages/main-acercade";
 @import "../scss/pages/main-elcolor";
+@import "../scss/pages/main-premios";
+@import "../scss/pages/main-filmografia";
 @import "../scss/components/footer";
 
 /* media queries tiene que quedar al final */
