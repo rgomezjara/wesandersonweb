@@ -1,12 +1,17 @@
-@media screen and (max-width:500px){
+@media screen and (max-width:700px){
+
+    h3{
+        font-size: 14px;
+        text-align: left;
+        @include general-padding(5px,5px);
+    }
     .grid-container{
         display: grid;
         flex-wrap: wrap;
         grid-template-rows: repeat(4,auto);
         grid-template-columns: repeat(2,1fr);
-        /* espacio entre las filas  */
-        /* row-gap: 50px; */
-        column-gap: 5px;
+    
+        column-gap: 2px;
        /*  Grid areas es mas visual */
        grid-template-areas: 
        'video video' 
@@ -15,5 +20,40 @@
        'img3 img4';
     
     }
+
+    .grid-item{
+        /* border: 1px solid black; */
+        margin-top: 5px;
+        padding: 10px;
+        
+    
+        #imgColor{
+        
+            width: auto;
+            height: 150px;
+            align-items: center;
+            justify-content: center;
+            vertical-align: middle;
+            /* padding-top: 10px; */
+            @include general-padding(10px,5px);
+        
+            
+        }
+    
+        
+    }
+    
+    
+    .video{
+        width: cover;
+        height:auto ;
+        margin-left: 10px;
+    }
+
+    .texto-color{
+        @include general-padding(20px,10px);
+
+    }
     
 }
+

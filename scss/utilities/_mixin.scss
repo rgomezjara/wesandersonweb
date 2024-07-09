@@ -1,0 +1,5 @@
+@mixin general-padding($p-top , $p-bottom) {
+    padding-top: $p-top;
+    padding-bottom: $p-bottom;
+}
+

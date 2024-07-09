@@ -76,7 +76,9 @@ header .navbar-toggler {
   font-weight: bold;
   text-align: center;
   font-family: serif;
-  padding-top: 5px;
+  /*  padding-top: 5px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* Imagen de colores */
@@ -96,11 +98,15 @@ i {
   color: palevioletred;
   padding: 4px;
 }
+.vermas-boton a {
+  text-decoration: none;
+  color: palevioletred;
+}
 
 /* Pseudo clase: active */
 button:active {
   background-color: palevioletred;
-  color: rgb(131, 215, 250);
+  color: white;
 }
 
 .wes-pop {
@@ -116,7 +122,7 @@ button:active {
   grid-template-columns: repeat(4, 1fr);
   /* espacio entre las filas  */
   /* row-gap: 50px; */
-  column-gap: 5px;
+  column-gap: 25px;
   /*  Grid areas es mas visual */
   grid-template-areas: "video video texto texto" "titulo2 titulo2 titulo2 titulo2" "img1 img2 img3 img4";
 }
@@ -140,7 +146,7 @@ button:active {
   grid-area: video;
   width: cover;
   height: cover;
-  margin-left: 80px;
+  margin-left: 10px;
 }
 
 .budapest-img {
@@ -163,6 +169,7 @@ button:active {
 .texto-color {
   grid-area: texto;
   padding-right: 70px;
+  padding-left: 10px;
 }
 
 .tablas {
@@ -211,7 +218,7 @@ footer {
   font-family: serif;
   /*  opacity: .6; */
 }
-footer h6 {
+footer .Copyright {
   color: black;
   text-align: left;
   position: relative;
@@ -223,17 +230,45 @@ footer i {
 }
 
 /* media queries tiene que quedar al final */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
+  h3 {
+    font-size: 14px;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
   .grid-container {
     display: grid;
     flex-wrap: wrap;
     grid-template-rows: repeat(4, auto);
     grid-template-columns: repeat(2, 1fr);
-    /* espacio entre las filas  */
-    /* row-gap: 50px; */
-    column-gap: 5px;
+    column-gap: 2px;
     /*  Grid areas es mas visual */
     grid-template-areas: "video video" "texto texto" "img1 img2" "img3 img4";
+  }
+  .grid-item {
+    /* border: 1px solid black; */
+    margin-top: 5px;
+    padding: 10px;
+  }
+  .grid-item #imgColor {
+    width: auto;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    /* padding-top: 10px; */
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  .video {
+    width: cover;
+    height: auto;
+    margin-left: 10px;
+  }
+  .texto-color {
+    padding-top: 20px;
+    padding-bottom: 10px;
   }
 }
 

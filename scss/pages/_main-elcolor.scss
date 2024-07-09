@@ -5,7 +5,7 @@
     grid-template-columns: repeat(4,1fr);
     /* espacio entre las filas  */
     /* row-gap: 50px; */
-    column-gap: 5px;
+    column-gap: 25px;
    /*  Grid areas es mas visual */
    grid-template-areas: 
    'video video texto texto'
@@ -39,7 +39,7 @@
     grid-area: video;
     width: cover;
     height:cover ;
-    margin-left: 80px;
+    margin-left: 10px;
 }
 
 .budapest-img{
@@ -60,5 +60,6 @@ justify-content: center;
 .texto-color{
     grid-area: texto;
     padding-right: 70px;
+    padding-left: 10px;
 }
 
