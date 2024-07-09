@@ -25,7 +25,8 @@ header {
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: whitesmoke;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(90deg, rgb(238, 174, 202) 0%, rgb(233, 226, 148) 100%);
 }
 header .navbar-toggler {
   background-color: rgb(135, 212, 222);
@@ -144,9 +145,9 @@ button:active {
 
 .video {
   grid-area: video;
-  width: cover;
+  width: auto;
   height: cover;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .budapest-img {
@@ -169,7 +170,7 @@ button:active {
 .texto-color {
   grid-area: texto;
   padding-right: 70px;
-  padding-left: 10px;
+  padding-left: 5px;
 }
 
 .tablas {
@@ -181,7 +182,9 @@ button:active {
 
 h4 {
   color: white;
-  background-color: rgb(211, 139, 199);
+  /* background-color: rgb(211, 139, 199); */
+  background: rgb(238, 174, 202);
+  background: linear-gradient(90deg, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
   padding-bottom: 5px;
   font-family: serif;
 }
@@ -189,6 +192,8 @@ h4 {
 .img-premios {
   width: auto;
   height: 300px;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(90deg, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
 }
 
 .titulos-premios {
@@ -214,7 +219,8 @@ footer {
   margin-top: 30px;
   display: flex;
   align-items: center;
-  background-color: rgba(255, 195, 0, 0.6);
+  background: rgb(238, 174, 202);
+  background: linear-gradient(90deg, rgb(238, 174, 202) 0%, rgb(233, 226, 148) 100%);
   font-family: serif;
   /*  opacity: .6; */
 }

@@ -2,7 +2,8 @@ header{
     position: sticky;
     top:0;
     z-index: 100;  
-    background-color: whitesmoke;  
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(233,226,148,1) 100%);
 
 
     .navbar-toggler{
