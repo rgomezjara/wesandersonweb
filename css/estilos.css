@@ -8,7 +8,7 @@
 
 h2 {
   text-align: center;
-  /* font-family: $tipo-titulo; */
+  font-family: serif;
   margin: 10px;
   padding: 10px;
   /*  padding: 15px; */
@@ -16,15 +16,20 @@ h2 {
 
 h3 {
   text-align: left;
-  /* font-family: $tipo-titulo; */
+  font-family: serif;
   color: black;
+  margin-top: 20px;
 }
 
 header {
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: rgb(243, 249, 251);
+  background-color: whitesmoke;
+}
+header .navbar-toggler {
+  background-color: rgb(135, 212, 222);
+  color: black;
 }
 
 /* Pseudoclase :visited */
@@ -85,7 +90,7 @@ i {
   /*  position: fixed; */
 }
 
-button {
+.vermas-boton {
   border-color: palevioletred;
   background-color: white;
   color: palevioletred;
@@ -95,7 +100,7 @@ button {
 /* Pseudo clase: active */
 button:active {
   background-color: palevioletred;
-  color: white;
+  color: rgb(131, 215, 250);
 }
 
 .wes-pop {
@@ -171,6 +176,7 @@ h4 {
   color: white;
   background-color: rgb(211, 139, 199);
   padding-bottom: 5px;
+  font-family: serif;
 }
 
 .img-premios {
@@ -188,12 +194,21 @@ h4 {
   padding-bottom: 30px;
 }
 
+.carousel-img {
+  height: 410px;
+  width: 150px;
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-top: 0px;
+}
+
 footer {
   padding: 20px;
   margin-top: 30px;
   display: flex;
   align-items: center;
   background-color: rgba(255, 195, 0, 0.6);
+  font-family: serif;
   /*  opacity: .6; */
 }
 footer h6 {
@@ -208,5 +223,18 @@ footer i {
 }
 
 /* media queries tiene que quedar al final */
+@media screen and (max-width: 500px) {
+  .grid-container {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(2, 1fr);
+    /* espacio entre las filas  */
+    /* row-gap: 50px; */
+    column-gap: 5px;
+    /*  Grid areas es mas visual */
+    grid-template-areas: "video video" "texto texto" "img1 img2" "img3 img4";
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */

@@ -2,7 +2,15 @@ header{
     position: sticky;
     top:0;
     z-index: 100;  
-    background-color: rgb(243, 249, 251);   
+    background-color: whitesmoke;  
+
+
+    .navbar-toggler{
+        background-color: rgb(135, 212, 222);
+        color: black;
+    }
+
+    
 }
 
  /* Pseudoclase :visited */
