@@ -33,8 +33,9 @@ header {
   background: linear-gradient(90deg, rgb(238, 174, 202) 0%, rgb(233, 226, 148) 100%);
 }
 header .navbar-toggler {
-  background-color: rgb(135, 212, 222);
-  color: black;
+  /*  background-color: rgb(135, 212, 222); */
+  background-color: aqua;
+  box-decoration-break: slice;
 }
 
 /* Pseudoclase :visited */
@@ -248,7 +249,7 @@ footer i {
 /* media queries tiene que quedar al final */
 @media screen and (max-width: 700px) {
   h3 {
-    font-size: 14px;
+    font-size: 15px;
     text-align: left;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -286,6 +287,20 @@ footer i {
     padding-top: 20px;
     padding-bottom: 10px;
   }
+}
+footer {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  font-family: serif;
+}
+footer .Copyright {
+  text-align: left;
+  position: relative;
+  font-size: medium;
+}
+footer i {
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

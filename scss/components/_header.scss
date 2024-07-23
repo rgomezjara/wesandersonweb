@@ -7,9 +7,13 @@ header{
 
 
     .navbar-toggler{
-        background-color: rgb(135, 212, 222);
-        color: black;
+       /*  background-color: rgb(135, 212, 222); */
+        
+        background-color: aqua;
+        box-decoration-break: slice;
     }
+
+   
 
     
 }

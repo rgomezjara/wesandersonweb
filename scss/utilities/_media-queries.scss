@@ -1,7 +1,7 @@
 @media screen and (max-width:700px){
 
     h3{
-        font-size: 14px;
+        font-size: 15px;
         text-align: left;
         @include general-padding(5px,5px);
     }
@@ -55,5 +55,35 @@
 
     }
     
+}
+
+footer{
+    
+    margin-top: 30px;
+    display: flex;
+    align-items:center;
+    font-family: $tipo-titulo;
+    
+    .Copyright{
+        
+        text-align: left;
+        position: relative;
+        font-size: medium;
+        
+        
+       
+    
+    }
+   
+
+
+    i{
+       
+      
+       font-size: 20px;
+
+    }
+
+   
 }
 
