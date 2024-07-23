@@ -1,8 +1,6 @@
-.tablas{
-    /* border: 1px solid black; */
-    /* background-color: pink; */
-    border-left: 1px solid black;
-    row-gap: 20px;
+.table{
+    @include general-padding(30px,10px);
+    
 
    
 }
