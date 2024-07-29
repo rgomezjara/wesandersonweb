@@ -46,9 +46,12 @@ p {
 h2 {
   text-align: center;
   font-family: serif;
+  font-size: 40px;
   margin: 10px;
-  padding: 10px;
-  /*  padding: 15px; */
+  text-shadow: 2px 3px 3px rgb(249, 211, 245);
+  padding-top: 10px;
+  padding-bottom: 30px;
+  letter-spacing: 4px;
 }
 
 h3 {
@@ -234,14 +237,41 @@ h4 {
 .text-filmo {
   padding-top: 20px;
   padding-bottom: 30px;
+  column-gap: 50px;
+}
+
+.carousel {
+  margin-left: 50px;
 }
 
 .carousel-img {
-  height: 410px;
-  width: 150px;
-  padding-left: 110px;
-  padding-right: 110px;
+  height: 400px;
+  width: 100px;
   padding-top: 0px;
+}
+
+.card {
+  margin-left: 100px;
+}
+.card .card-img-top {
+  height: 300px;
+  width: auto;
+}
+
+.card-body {
+  background: linear-gradient(90deg, rgb(238, 174, 202) 0%, rgb(233, 226, 148) 100%);
+}
+.card-body .card-title {
+  color: aliceblue;
+}
+.card-body .card-text {
+  height: 200px;
+}
+.card-body .card-link {
+  text-decoration: none;
+}
+.card-body .card-link #link a:visited {
+  color: purple;
 }
 
 footer {
@@ -305,6 +335,17 @@ footer i {
   .texto-color {
     padding-top: 20px;
     padding-bottom: 10px;
+  }
+  .carousel {
+    margin-left: 0%;
+  }
+  .card {
+    margin-left: 0px;
+    margin-bottom: 30px;
+    align-content: center;
+  }
+  h3 {
+    font-size: 20px;
   }
   .img-premios {
     /* width: 100px;
