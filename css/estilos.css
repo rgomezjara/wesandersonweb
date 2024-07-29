@@ -2,7 +2,7 @@
 header {
   position: sticky;
   top: 0;
-  /* z-index: 100;   */
+  z-index: 100;
   background: linear-gradient(90deg, rgb(238, 174, 202) 0%, rgb(233, 226, 148) 100%);
 }
 header .navbar-toggler {
@@ -366,6 +366,10 @@ footer i {
     /* width: 100px;
     height:auto; */
     display: none;
+  }
+  .acercade {
+    padding-right: 0px;
+    margin-right: 0px;
   }
   footer {
     margin-top: 30px;
